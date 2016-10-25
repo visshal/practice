@@ -18,8 +18,8 @@ public class SumOfTwoIndices {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int[] result = twoSum(nums, 18);
+        int[] nums = {2, 7, 11, 15, 6};
+        int[] result = twoSum(nums, 22);
         for (int i : result)
             System.out.print(i + " ");
     }
